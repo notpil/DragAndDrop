@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="新しいフォルダー\**" />
+    <Content Remove="新しいフォルダー\**" />
+    <EmbeddedResource Remove="新しいフォルダー\**" />
+    <None Remove="新しいフォルダー\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+
+</Project>

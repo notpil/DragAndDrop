@@ -1,0 +1,37 @@
+﻿@{
+	//ViewData["Title"] = "Home Page"
+	ViewBag.Tile = "Index";
+}
+
+	<div class="text-center justify-content-center">
+		<h2>Drag & Drop file upload </h2>
+
+		<div class="row">
+			@using (Html.BeginForm("UploadFile", "Home",
+							 FormMethod.Post,
+							 new
+							 {
+								 @class = "dropzone",
+								 id = "dropzone-form",
+							 }))
+			{
+				<div class="fallback">
+					<input name="file" type="file" multiple />
+				</div>
+
+			}
+		</div>
+		<p>@ViewData["result"]</p>
+
+		@section Scripts{
+			<script type="text/javascript">
+				Dropzone.options.dropzoneForm = {
+					paramName: "file",
+					maxFilesize: 65535,
+					timeout: 600000,
+					maxFiles: 1,
+					dictMaxFilesExceeded: "Custom max files msg",
+				};
+			</script>
+		}
+	</div>

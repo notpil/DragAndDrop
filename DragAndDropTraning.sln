@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragAndDropTraning", "DragAndDropTraning\DragAndDropTraning.csproj", "{A404ACFD-0F5C-473F-845D-3FBB12703BAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A404ACFD-0F5C-473F-845D-3FBB12703BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A404ACFD-0F5C-473F-845D-3FBB12703BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A404ACFD-0F5C-473F-845D-3FBB12703BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A404ACFD-0F5C-473F-845D-3FBB12703BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6E023F7-29D5-4DD7-A515-93FE87617EF4}
+	EndGlobalSection
+EndGlobal
